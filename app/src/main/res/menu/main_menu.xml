@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/jokes"
+    android:orderInCategory="1"
+    android:title="jokes"/>
+    <item
+        android:id="@+id/api"
+        android:orderInCategory="2"
+        android:title="API"/>
+</menu>

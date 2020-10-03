@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_a_p_ishow"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
-
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:onClick="showJokes"
-        android:text="jokes" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:onClick="showAPI"
-        android:text="API"/>
+        android:text="http://www.icndb.com/api/"
+        android:autoLink="web"/>
 </LinearLayout>
